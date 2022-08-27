@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1340756187 source:/home/oliver/samp-dot-net/trunk/sampdotnethook/src/Invoke.cpp
+	"Invoke.h"
+	<stdio.h>
+	<stdlib.h>
+
+1340929906 /home/oliver/samp-dot-net/trunk/sampdotnethook/src/Invoke.h
+	<windows.h>
+	<algorithm>
+	<bitset>
+	<limits>
+	<list>
+	<map>
+	<math.h>
+	<set>
+	<stdarg.h>
+	<string>
+	<string.h>
+	<vector>
+	"SDK/amx/amx.h"
+	"SDK/plugincommon.h"
+
+1340797243 /home/oliver/samp-dot-net/trunk/sampdotnethook/src/SDK/amx/amx.h
+	<stdlib.h>
+	"sclinux.h"
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+	<ppc/types.h>
+	<inttypes.h>
+	<alloca.h>
+
+1339845862 /home/oliver/samp-dot-net/trunk/sampdotnethook/src/SDK/amx/sclinux.h
+	<stdlib.h>
+
+1340996134 /home/oliver/samp-dot-net/trunk/sampdotnethook/src/SDK/plugincommon.h
+

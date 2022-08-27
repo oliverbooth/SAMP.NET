@@ -1,0 +1,25 @@
+Important Note:
+The Visual Studio project for the C++ hook was omitted since the introduction of the Linux-ready release.
+In its place, a Code::Blocks project has been created. (Code::Blocks is a cross-platform open-source IDE)
+The options have been pre-set for cross-compiling on both Windows and Linux, but there is some housekeeping you'll need to do if you want to build on either:
+
+== Building On Windows ==
+- Steps -
+1) Load the project Build Options
+2) Edit the Linker Settings
+3) Remove the lib\limono-2.0.so library from the linker
+4) Rebuild the project
+
+- Why? -
+The .so library is a Linux "shared object", equivilent to a .dll on Windows. The linker has pre-set options to scan the lib/ directory for mono-2.0.dll, so we don't need to add that back in to the list.
+
+== Building on Linux ==
+- Steps
+1) Load the project Build Options
+2) Edit the Linker Settings
+3) Under "Other linker options", omit the "def.def" flag from the list
+4) Rebuild the project
+
+- Why? -
+The definition module is a Windows-specific file for the linker to export the AMX functions to the DLL. Linux does a good job at not obfuscating function names upon compiling because it doesn't require the __stdcall convention to export said functions, so we don't need a definition module for this purpose.
+It also throws errors because it's not a recognised file so just go with it.

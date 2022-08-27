@@ -1,0 +1,51 @@
+﻿
+namespace SAMP.API {
+	/// <summary>
+	/// Weapon.
+	/// </summary>
+	public enum Weapon : int {
+		Fist = 0,
+		BrassKnucles,
+		GolfClub,
+		Nightstick,
+		Knife,
+		BaseballBat,
+		Shovel,
+		PoolCue,
+		Katana,
+		Chainsaw,
+		DoubleEndedDildo,
+		Dildo,
+		Vibrator,
+		SilverVibrator,
+		Flowers,
+		Cane,
+		Grenade,
+		TearGas,
+		MolotovCocktail,
+		NineMM,
+		SilencedNineMM,
+		DesertEagle,
+		Shotgun,
+		SawnoffShotgun,
+		CombatShotgun,
+		MicroSMG,
+		MP5,
+		AK47,
+		M4,
+		Tec9,
+		CountryRifle,
+		RPG,
+		HSRocket,
+		FlameThrower,
+		Minigun,
+		SatchelCharge,
+		Detonator,
+		Spraycan,
+		FireExtinguisher,
+		Camera,
+		NightVisionGoggles,
+		ThermalGoggles,
+		Parachute
+	};
+};
