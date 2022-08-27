@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SDK\amxplugin.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="callbacks.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Mono.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="a_objects.cpp">
+      <Filter>Source\samp</Filter>
+    </ClCompile>
+    <ClCompile Include="a_vehicles.cpp">
+      <Filter>Source\samp</Filter>
+    </ClCompile>
+    <ClCompile Include="a_players.cpp">
+      <Filter>Source\samp</Filter>
+    </ClCompile>
+    <ClCompile Include="a_samp.cpp">
+      <Filter>Source\samp</Filter>
+    </ClCompile>
+    <ClCompile Include="Invoke.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK\plugincommon.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\amx.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\sclinux.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mono.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="a_objects.h">
+      <Filter>Header\samp</Filter>
+    </ClInclude>
+    <ClInclude Include="a_vehicles.h">
+      <Filter>Header\samp</Filter>
+    </ClInclude>
+    <ClInclude Include="a_players.h">
+      <Filter>Header\samp</Filter>
+    </ClInclude>
+    <ClInclude Include="a_samp.h">
+      <Filter>Header\samp</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoke.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{26ef73ef-49a9-4cae-b8da-b9629b2897cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{2184db04-963b-4452-a6c6-cd7ea6a7a7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{76740bba-0c67-461e-9015-fdf6ca1bfcae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\samp">
+      <UniqueIdentifier>{0cb8f5e0-6ccd-49ea-b30d-5882be6768c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\samp">
+      <UniqueIdentifier>{20988b0d-27d8-43f9-90d3-428c7c93c066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\amx">
+      <UniqueIdentifier>{55bd2cf3-8b84-44ff-a784-7f3117cbb384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Definition">
+      <UniqueIdentifier>{deb3e098-42cd-419f-9378-92d8fb3d314c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="def.def">
+      <Filter>Definition</Filter>
+    </None>
+  </ItemGroup>
+</Project>

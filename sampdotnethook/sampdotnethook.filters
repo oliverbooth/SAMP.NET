@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{f6198572-5915-4d08-bcd1-4474b511370c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\amx">
+      <UniqueIdentifier>{4b4dc438-4cdf-4d78-b694-fc4cbf4ab62d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Functions">
+      <UniqueIdentifier>{09508d0c-2f6f-44ec-b8a2-14b93f52a72a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Functions">
+      <UniqueIdentifier>{fa20c324-903f-4ffb-a7e4-c2d7b17babe1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="def.def">
+      <Filter>Source</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDK\amxplugin.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Invoke.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Mono.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="a_players.cpp">
+      <Filter>Source\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="a_samp.cpp">
+      <Filter>Source\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="a_vehicles.cpp">
+      <Filter>Source\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="a_objects.cpp">
+      <Filter>Source\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="callbacks.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK\plugincommon.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\amx.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\sclinux.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoke.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mono.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="a_players.h">
+      <Filter>Header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="a_samp.h">
+      <Filter>Header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="a_vehicles.h">
+      <Filter>Header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="a_objects.h">
+      <Filter>Header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

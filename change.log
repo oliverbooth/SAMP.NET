@@ -1,0 +1,20 @@
+-=Version 0.2 alpha (LATEST)=-
++ Added callback hooks for OnPlayerEditObject and OnPlayerEditAttachedObject for a possiblity to be implemented later
++ License included in binary download archive
++ Added a Vehicle property for the Player class. Removes and places the player in a vehicle
++ Added a Seat property for the Player class. Changes and determines the seat number the player is in.
+	(NOTE: If the player is not currently in a vehicle, this value is stored and will be used when next placing the player in a vehicle)
++ Added vehicle component functionality
++ Added source archive available for download from the forum post
+* Fixed a bug with the Util class not being part of the API namespace
+* Fixed a bug where the native GetVehicleComponentInSlot wouldn't return an int
+- Removed console output of the Function not found upon loading
+
+-=Version 0.1.1 alpha=-
++ Added Example scripts
+
+-=Version 0.1 alpha=-
++ Majority of callbacks
++ All a_samp.inc 0.3e functions
+    (every function from a_objects, and various functions from other files are to be implemented soon)
++ XML documentation

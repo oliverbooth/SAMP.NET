@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SAMP.API.GameMode" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAIAgDAABBCCAAAAAQAAQAgEAACxAAAAA=</HashCode>
+      <FileName>API\Objects\GameMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.GangZone" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAAACAYAAAgEIAAAAAAAAIAAAIAIQAAEEAAAAAAAA=</HashCode>
+      <FileName>API\Objects\GangZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.Menu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgAAAEAAAAgABAAAgAAAAIgABAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>API\Objects\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.Player" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>I0ASSBAQAEhCsFhgAqmEAKeACBAcgEBIBMBgpQYHpAA=</HashCode>
+      <FileName>API\Objects\Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SAMP.API.PlayerCamera" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>API\Objects\PlayerCamera.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SAMP.API.Text3D" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAEgAAAAhAAAAAIAAEAAEBAAAAAiAAAAAA=</HashCode>
+      <FileName>API\Objects\Text3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.TextDraw" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQgABBAAgABAEyCAAKhIUAFEAABAoAgACQADAAA=</HashCode>
+      <FileName>API\Objects\TextDraw.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.Vehicle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAMRAAoABiAAECAKAIAABAAABAgEgABAACAgA=</HashCode>
+      <FileName>API\Objects\Vehicle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SAMP.API.World" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAGAAIAIAIAAAAAAAAAEACjEAgCSoAAIAAAgAwQ=</HashCode>
+      <FileName>API\Objects\World.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.Constants" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\Util\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.Server" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAACAACAACAAABAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>API\Util\Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.EventData.DialogResponseEventArgs" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAIACACQAAAAgAAAIAAAAAgABAgAAAAAA=</HashCode>
+      <FileName>API\EventData\DialogResponseEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.EventData.PlayerClickMapEventArgs" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>API\EventData\Player\PlayerClickMapEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.EventData.PlayerCommandTextEventArgs" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAIAAIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>API\EventData\Player\PlayerCommandTextEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.EventData.PlayerDisconnectEventArgs" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>API\EventData\Player\PlayerDisconnectEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.EventData.PlayerEnterExitModShopEventArgs" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAgAACAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>API\EventData\Player\PlayerEnterExitModShopEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.EventData.PlayerRequestClassEventArgs" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAABAAAAIAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\EventData\Player\PlayerRequestClassEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.EventData.PlayerSpawnEventArgs" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\EventData\Player\PlayerSpawnEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.EventData.PlayerTextEventArgs" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAIAAAAAAAAAAAAAEAAAgAAAAAAIAAAAAA=</HashCode>
+      <FileName>API\EventData\Player\PlayerTextEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.Util" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>API\Util\Util.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.Core.Exceptions" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAgACACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.Core.Internal" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RACSAFCBDAAgAKDAhQgQIAECKxhADASgQIBIRAQAEAQ=</HashCode>
+      <FileName>Core\Internal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.Core.Natives" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/vcn3It/nfqy7rT3f/vN923h/+/vfv8479vea9f3f7w=</HashCode>
+      <FileName>Core\Natives.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMP.API.SpawnInfo" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAYAAAgBIAAACIAAAAEBABZEEAAAAQIAAA=</HashCode>
+      <FileName>API\Util\SpawnInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SAMP.API.Color" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Y/s/AcRdQXu8I7OmoRkQ11WRFJBxxgSLiLRt/TUZl4E=</HashCode>
+      <FileName>API\Util\Color.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SAMP.Vector2" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQAAAAEYAUAAAAACQAAAABAAAAAAAAAYAA=</HashCode>
+      <FileName>API\Util\Vector2.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SAMP.Vector3" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQAAAAEYAUAAAAACQAAAABAAAAAAAAAYAE=</HashCode>
+      <FileName>API\Util\Vector3.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="SAMP.Core.ICountable" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Interfaces\ICountable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SAMP.Core.IScriptBase" Collapsed="true">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Interfaces\IScriptBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SAMP.Core.IWorldEntity" Collapsed="true">
+    <Position X="4" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Interfaces\IWorldEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SAMP.API.Alignment" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>API\Enums\Alignment.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SAMP.API.CameraMode" Collapsed="true">
+    <Position X="2.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAwBAAAAAAEAIAAQQAAAQAAAEAAAAAAAACAAAEAIA=</HashCode>
+      <FileName>API\Enums\CameraMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SAMP.API.DialogStyle" Collapsed="true">
+    <Position X="4" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAI=</HashCode>
+      <FileName>API\Enums\DialogStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SAMP.API.DisconnectReason" Collapsed="true">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>API\Enums\DisconnectReason.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SAMP.API.Keys" Collapsed="true">
+    <Position X="7.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAIoAUCAAAAYQAAEAiAqAEoAAACACAAIAAAAY=</HashCode>
+      <FileName>API\Enums\Keys.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SAMP.API.PlayerState" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAAAAAACAAAAAAAAAAwCAAAAAAAIEAIAA=</HashCode>
+      <FileName>API\Enums\PlayerState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SAMP.API.Skin" Collapsed="true">
+    <Position X="2.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>t1bXfuYbJw3c99+0fb/XQdvrB4f9vt93DJHqmjNIc/0=</HashCode>
+      <FileName>API\Enums\Skin.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

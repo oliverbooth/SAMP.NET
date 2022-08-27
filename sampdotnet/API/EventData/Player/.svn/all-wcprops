@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/30/branches/0.2/sampdotnet/API/EventData/Player
+END
+PlayerDeathEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/30/branches/0.2/sampdotnet/API/EventData/Player/PlayerDeathEventArgs.cs
+END
+PlayerStateChangeEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/30/branches/0.2/sampdotnet/API/EventData/Player/PlayerStateChangeEventArgs.cs
+END
+PlayerPickUpPickupEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/30/branches/0.2/sampdotnet/API/EventData/Player/PlayerPickUpPickupEventArgs.cs
+END
+PlayerSpawnEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/30/branches/0.2/sampdotnet/API/EventData/Player/PlayerSpawnEventArgs.cs
+END
+PlayerExitVehicleEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/30/branches/0.2/sampdotnet/API/EventData/Player/PlayerExitVehicleEventArgs.cs
+END
+PlayerDisconnectEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/30/branches/0.2/sampdotnet/API/EventData/Player/PlayerDisconnectEventArgs.cs
+END
+PlayerEnterVehicleEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/30/branches/0.2/sampdotnet/API/EventData/Player/PlayerEnterVehicleEventArgs.cs
+END
+PlayerRequestClassEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/30/branches/0.2/sampdotnet/API/EventData/Player/PlayerRequestClassEventArgs.cs
+END
+PlayerEnterExitModShopEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/30/branches/0.2/sampdotnet/API/EventData/Player/PlayerEnterExitModShopEventArgs.cs
+END
+PlayerCommandTextEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/30/branches/0.2/sampdotnet/API/EventData/Player/PlayerCommandTextEventArgs.cs
+END
+PlayerClickMapEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/30/branches/0.2/sampdotnet/API/EventData/Player/PlayerClickMapEventArgs.cs
+END
+PlayerTextEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/30/branches/0.2/sampdotnet/API/EventData/Player/PlayerTextEventArgs.cs
+END

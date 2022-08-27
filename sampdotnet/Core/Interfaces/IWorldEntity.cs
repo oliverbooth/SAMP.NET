@@ -1,6 +1,7 @@
-﻿
-namespace SAMP.Core {
-	public interface IWorldEntity {
-		API.Vector3 Position { get; set; }
-	};
+﻿namespace SAMP.Core
+{
+    public interface IWorldEntity
+    {
+        Vector3 Position { get; set; }
+    };
 };
