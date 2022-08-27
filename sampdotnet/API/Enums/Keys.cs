@@ -1,7 +1,7 @@
 ﻿
 namespace SAMP.API
 {
-    public enum Keys
+    public enum Keys : int
     {
         Action          =  1,
         Crouch          =  2,

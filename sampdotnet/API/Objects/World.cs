@@ -9,6 +9,7 @@ namespace SAMP.API
         private static bool _bTirePopping = true;
         private static bool _bInteriorWeapons = true;
         private static bool _bInteriorEnterExits = true;
+        private static bool _bNameTags = true;
         private static float _fNameTagDrawDistance = 70f;
         private static float _fGlobalChatRadius = 0.0f;
         private static float _fGravity = 0.008f;
@@ -65,6 +66,15 @@ namespace SAMP.API
         {
             get { return _fPlayerMarkerRadius; }
             set { _fPlayerMarkerRadius = value; Core.Natives.LimitPlayerMarkerRadius(value); }
+        }
+
+        /// <summary>
+        /// Gets or sets whether name tags, health bars and armor bars are visible above players.
+        /// </summary>
+        public static bool NameTags
+        {
+            get { return _bNameTags; }
+            set { _bNameTags = value; Core.Natives.ShowNameTags(value ? 1 : 0); }
         }
 
         /// <summary>
@@ -143,7 +153,7 @@ namespace SAMP.API
         {
             int ret = Core.Natives.CreatePickup(model, type, position.X, position.Y, position.Z, virtualworld);
             if(ret == -1)
-                throw Core.Exceptions.PickupMaxLimit;
+                throw new Exception("The maximum number of pickups has been exceeded.");
             return ret;
         }
 
@@ -193,16 +203,14 @@ namespace SAMP.API
             SendMessageToAll(message, Color.White);
         }
 
+        [Obsolete("Use SAMP.API.World.SendMessageToAll(string, SAMP.API.Color) instead.", true)]
         /// <summary>
         /// Sends a message to all players connected, specifying both the message the players will receive as the colour in which the message should show up. This is a multiple-user equivalent of Player.SendMessage().
         /// </summary>
         /// <param name="message">The string of text you would like to send.</param>
         /// <param name="color">The color it should be in. This overload supports HEX notation.</param>
         /// <seealso cref="Player.SendMessage"/>
-        public static void SendMessageToAll(string message, uint color)
-        {
-            SendMessageToAll(message, Color.FromArgb(color));
-        }
+        public static void SendMessageToAll(string message, uint color) { }
 
         /// <summary>
         /// Sends a message to all players connected, specifying both the message the players will receive as the colour in which the message should show up. This is a multiple-user equivalent of Player.SendMessage().

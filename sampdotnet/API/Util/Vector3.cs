@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SAMP
+namespace SAMP.API
 {
     public struct Vector3
     {

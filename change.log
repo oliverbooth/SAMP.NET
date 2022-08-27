@@ -1,20 +1,99 @@
--=Version 0.2 alpha (LATEST)=-
-+ Added callback hooks for OnPlayerEditObject and OnPlayerEditAttachedObject for a possiblity to be implemented later
-+ License included in binary download archive
-+ Added a Vehicle property for the Player class. Removes and places the player in a vehicle
-+ Added a Seat property for the Player class. Changes and determines the seat number the player is in.
-	(NOTE: If the player is not currently in a vehicle, this value is stored and will be used when next placing the player in a vehicle)
-+ Added vehicle component functionality
-+ Added source archive available for download from the forum post
-* Fixed a bug with the Util class not being part of the API namespace
-* Fixed a bug where the native GetVehicleComponentInSlot wouldn't return an int
-- Removed console output of the Function not found upon loading
+Version 0.5 Alpha (2012-05-23)  *Latest*
 
--=Version 0.1.1 alpha=-
-+ Added Example scripts
+	+ Added 6 events:
+		> Vehicle.OnStreamIn
+		> Vehicle.OnStreamOut
+		> Player.OnStreamIn
+		> Player.OnStreamOut
+		> Player.OnUpdate
+		> Server.OnRconLoginAttempt
 
--=Version 0.1 alpha=-
-+ Majority of callbacks
-+ All a_samp.inc 0.3e functions
-    (every function from a_objects, and various functions from other files are to be implemented soon)
-+ XML documentation
+	+ Added 4 functions:
+		> Player.PlaySound (int)
+			(+1 overload: Player.PlaySound (int, Vector3))
+		> Player.PlayCrimeReport (Player, int)
+		> Player.SetSkillLevel (WeaponType, int)
+		> Player.ShowNameTag (Player, bool)
+
+	+ Added 13 properties:
+		> Player.Color
+		> Player.Clock
+		> Player.DrunkLevel
+		> Player.Ping
+		> Player.Score
+		> Player.SpecialAction
+		> Player.Team
+		> Player.Time
+		> Player.WantedLevel
+		> Player.Weapon
+		> Player.WeaponState
+		> Player.Weather
+		> World.NameTags
+
+	+ Added 5 enums:
+		> ComponentSlot
+		> SpecialAction
+		> Weapon
+		> WeaponState
+		> WeaponType
+
+	+ Updated the mscorlib.dll library
+		(This should fix some big problems. Mainly the problem of the server "not working" or crashing if you use the 'exit' command)
+
+	+ Included the mono-2.0.dll library in the server directory
+
+	* Changed static Vehicle.GetComponentType to return type SAMP.API.ComponentSlot
+		(SAMP.API.ComponentSlot is simply an enum containing the slots and their integer values)
+
+	* Cleaned up source code a bit
+
+	* Fixed an issue where Vector2 and Vector3 weren't part of the API namespace
+
+	* Fixed an issue with the hook GetPlayerColor was returning an int instead of unsigned int
+		(NOTE: Also changed the .NET API from int to uint)
+
+	- Removed Player.OnText on the VB.NET example
+		(I was testing something. Removed for pointlessness)
+
+	- Deprecated the World.SendMessageToAll overload which took a 'uint' argument.
+		(Use SAMP.API.Color instead)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Version 0.2 Alpha (2012-05-22)
+
+	+ Added callback hooks for OnPlayerEditObject and OnPlayerEditAttachedObject for a possiblity to be implemented later
+
+	+ License included in binary download archive
+
+	+ Added a Vehicle property for the Player class. Removes and places the player in a vehicle
+
+	+ Added a Seat property for the Player class. Changes and determines the seat number the player is in
+		(NOTE: If the player is not currently in a vehicle, this value is stored and will be used when next placing the player in a vehicle)
+
+	+ Added vehicle component functionality
+
+	+ Added source archive available for download from the forum post
+
+	* Fixed a bug with the Util class not being part of the API namespace
+
+	* Fixed a bug where the native GetVehicleComponentInSlot wouldn't return an int
+
+	- Removed console output of the Function not found upon loading
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Version 0.1.1 Alpha (2012-05-18)
+
+	+ Added Example scripts to archive
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Version 0.1 Alpha (2012-05-18)
+
+	+ Majority of callbacks
+
+	+ All a_samp.inc 0.3e functions ported to .NET
+		(NOTE: Other functions from other files will be added progressively soon)
+
+	+ XML documentation for .NET usability

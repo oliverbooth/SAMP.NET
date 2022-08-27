@@ -120,7 +120,7 @@ void SetPlayerColor(int playerid, unsigned int color) {
 	g_Invoke->callNative(&PAWN::SetPlayerColor, playerid, color);
 }
 
-int GetPlayerColor(int playerid) {
+unsigned int GetPlayerColor(int playerid) {
 	return g_Invoke->callNative(&PAWN::GetPlayerColor, playerid);
 }
 

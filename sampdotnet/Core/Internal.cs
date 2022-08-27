@@ -133,7 +133,7 @@ namespace SAMP.Core
         public static void OnPlayerObjectMoved(int playerid, int objectid) { } // TODO: Implement
         public static void OnPlayerPickUpPickup(int playerid, int pickupid)
         {
-            Player.Get(playerid)._OnPickupPickUp(pickupid);
+            Player.Get(playerid)._OnPickUpPickup(pickupid);
         }
         public static int OnVehicleMod(int playerid, int vehicleid, int componentid) { return 1; } // TODO: Implement
         public static void OnEnterExitModShop(int playerid, int enterexit, int interiorid)
@@ -149,12 +149,30 @@ namespace SAMP.Core
         public static void OnPlayerExitedMenu(int playerid) { } // TODO: Implement
         public static void OnPlayerInteriorChange(int playerid, int newinteriorid, int oldinteriorid) { } // TODO: Implement
         public static int OnPlayerKeyStateChange(int playerid, int newkeys, int oldkeys) { return 1; } // TODO: Implement
-        public static void OnRconLoginAttempt(string ip, string password, int success) { } // TODO: Implement
-        public static int OnPlayerUpdate(int playerid) { return 1; } // TODO: Implement
-        public static void OnPlayerStreamIn(int playerid, int forplayerid) { } // TODO: Implement
-        public static void OnPlayerStreamOut(int playerid, int forplayerid) { } // TODO: Implement
-        public static void OnVehicleStreamIn(int vehicleid, int forplayerid) { } // TODO: Implement
-        public static void OnVehicleStreamOut(int vehicleid, int forplayerid) { } // TODO: Implement
+        public static void OnRconLoginAttempt(string ip, string password, int success)
+        {
+            Server._OnRconLoginAttempt(ip, password, success);
+        }
+        public static int OnPlayerUpdate(int playerid)
+        {
+            return Player.Get(playerid)._OnUpdate();
+        }
+        public static void OnPlayerStreamIn(int playerid, int forplayerid)
+        {
+            Player.Get(playerid)._OnStreamIn(forplayerid);
+        }
+        public static void OnPlayerStreamOut(int playerid, int forplayerid)
+        {
+            Player.Get(playerid)._OnStreamOut(forplayerid);
+        }
+        public static void OnVehicleStreamIn(int vehicleid, int forplayerid)
+        {
+            Vehicle.Get(vehicleid)._OnStreamIn(forplayerid);
+        }
+        public static void OnVehicleStreamOut(int vehicleid, int forplayerid)
+        {
+            Vehicle.Get(vehicleid)._OnStreamOut(forplayerid);
+        }
         public static int OnDialogResponse(int playerid, int dialogid, int response, int listitem, string inputtext)
         {
             // Predef a variable for pass-on

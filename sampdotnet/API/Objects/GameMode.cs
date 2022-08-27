@@ -93,7 +93,7 @@ namespace SAMP.API
                         Core.Natives.UsePlayerPedAnims();
                 }
                 else
-                    throw Core.Exceptions.GameModeInitialized;
+                    throw new Exception("The GmaeMode has already been initialized.");
             }
         }
 

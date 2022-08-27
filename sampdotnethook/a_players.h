@@ -28,7 +28,7 @@ int GetPlayerScore(int playerid);
 int GetPlayerDrunkLevel(int playerid);
 void SetPlayerDrunkLevel(int playerid, int level);
 void SetPlayerColor(int playerid, int color);
-int GetPlayerColor(int playerid);
+unsigned int GetPlayerColor(int playerid);
 void SetPlayerSkin(int playerid, int skinid);
 int GetPlayerSkin(int playerid);
 void GivePlayerWeapon(int playerid, int weaponid, int ammo);

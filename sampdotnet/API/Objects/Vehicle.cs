@@ -60,6 +60,28 @@ namespace SAMP.API
             catch { }
         }
         #endregion
+        #region OnStreamIn
+        public delegate void OnStreamInHandler(object sender, EventData.VehicleStreamEventArgs e);
+        public static event OnStreamInHandler OnStreamIn;
+
+        internal void _OnStreamIn(int forplayerid)
+        {
+            EventData.VehicleStreamEventArgs args = new EventData.VehicleStreamEventArgs(Player.Get(forplayerid));
+            try { OnStreamIn(this, args); }
+            catch { }
+        }
+        #endregion
+        #region OnStreamOut
+        public delegate void OnStreamOutHandler(object sender, EventData.VehicleStreamEventArgs e);
+        public static event OnStreamOutHandler OnStreamOut;
+
+        internal void _OnStreamOut(int forplayerid)
+        {
+            EventData.VehicleStreamEventArgs args = new EventData.VehicleStreamEventArgs(Player.Get(forplayerid));
+            try { OnStreamOut(this, args); }
+            catch { }
+        }
+        #endregion
 
         #endregion
 
@@ -272,10 +294,10 @@ namespace SAMP.API
         /// Determines what type of component (the slot) of a component id Find out what type of component a certain ID is.
         /// </summary>
         /// <param name="component">The component ID to check.</param>
-        /// <returns>Returns the component slot ID of the specified component.</returns>
-        public static int GetComponentType(int component)
+        /// <returns>Returns the component slot of the specified component.</returns>
+        public static ComponentSlot GetComponentType(int component)
         {
-            return Core.Natives.GetVehicleComponentType(component);
+            return (ComponentSlot)Core.Natives.GetVehicleComponentType(component);
         }
 
         /// <summary>

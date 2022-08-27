@@ -14,7 +14,7 @@ namespace SAMP.API
         #region Events, Delegates and Method Calls
 
         #region OnRconCommand
-        public delegate void OnRconCommandHandler(object sender, System.EventArgs e);
+        public delegate void OnRconCommandHandler(object sender, EventData.RconCommandEventArgs e);
         public static event OnRconCommandHandler OnRconCommand;
 
         internal static int _OnRconCommand(string cmd)
@@ -23,6 +23,17 @@ namespace SAMP.API
             try { OnRconCommand(null, args); }
             catch { }
             return args.Handled ? 1 : 0;
+        }
+        #endregion
+        #region OnRconLoginAttempt
+        public delegate void OnRconLoginAttemptHandler(object sender, EventData.RconLoginAttemptEventArgs e);
+        public static event OnRconLoginAttemptHandler OnRconLoginAttempt;
+
+        internal static void _OnRconLoginAttempt(string ip, string password, int success)
+        {
+            EventData.RconLoginAttemptEventArgs args = new EventData.RconLoginAttemptEventArgs(ip, password, success == 1);
+            try { OnRconLoginAttempt(null, args); }
+            catch { }
         }
         #endregion
 

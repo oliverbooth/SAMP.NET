@@ -1,7 +1,7 @@
 ﻿
 namespace SAMP.API
 {
-    public enum ComponentSlots
+    public enum ComponentSlot : int
     {
         Spoiler     = 0,
         Hood        = 1,

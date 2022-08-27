@@ -292,7 +292,7 @@ namespace SAMP.Core
         [DllImport("__Internal", EntryPoint="SetPlayerColor")]
         public static extern void SetPlayerColor(int playerid, uint color);
         [DllImport("__Internal", EntryPoint="GetPlayerColor")]
-        public static extern int GetPlayerColor(int playerid);
+        public static extern uint GetPlayerColor(int playerid);
         [DllImport("__Internal", EntryPoint="SetPlayerSkin")]
         public static extern void SetPlayerSkin(int playerid, int skinid);
         [DllImport("__Internal", EntryPoint="GetPlayerSkin")]

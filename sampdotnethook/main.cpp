@@ -1,3 +1,5 @@
+#define VERSION ("0.5 alpha")
+
 #include "callbacks.h"
 #include "a_samp.h"
 #include "Mono.h"
@@ -27,12 +29,16 @@ PLUGIN_EXPORT bool PLUGIN_CALL Load(void** ppData) {
 	g_Mono->init();
 	 
 	// Output status
-    logprintf("  sampdotnethook v0.1 is OK.");
+	char msg[50] = "";
+	sprintf_s(msg, sizeof(msg), "   sampdotnethook v%s is OK", VERSION);
+    logprintf(msg);
     return true;
 }
 
 PLUGIN_EXPORT void PLUGIN_CALL Unload() {
-    logprintf("  sampdotnethook v0.1 unloaded.");
+	char msg[50] = "";
+	sprintf_s(msg, sizeof(msg), "   sampdotnethook v%s unloaded", VERSION);
+    logprintf(msg);
 }
 
 AMX_NATIVE_INFO PluginNatives[] = {

@@ -2,7 +2,7 @@
 
 namespace SAMP.API.EventData
 {
-    public class PlayerSpawnEventArgs : EventArgs
+    public class PlayerUpdateEventArgs : EventArgs
     {
         #region Class Variables
 
@@ -13,7 +13,7 @@ namespace SAMP.API.EventData
         #region Accessors & Mutators
 
         /// <summary>
-        /// Gets or sets whether the event should be cancelled (send back to class selection).
+        /// Gets or sets whether the event should cancel.
         /// </summary>
         public bool Cancel
         {

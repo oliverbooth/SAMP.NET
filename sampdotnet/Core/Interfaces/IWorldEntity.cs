@@ -2,6 +2,6 @@
 {
     public interface IWorldEntity
     {
-        Vector3 Position { get; set; }
+        API.Vector3 Position { get; set; }
     };
 };

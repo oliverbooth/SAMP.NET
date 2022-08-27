@@ -42,8 +42,14 @@
   <ItemGroup>
     <Compile Include="API\Enums\Alignment.cs" />
     <Compile Include="API\Enums\CameraMode.cs" />
-    <Compile Include="API\Enums\ComponentSlots.cs" />
+    <Compile Include="API\Enums\ComponentSlot.cs" />
+    <Compile Include="API\Enums\SpecialAction.cs" />
+    <Compile Include="API\Enums\WeaponType.cs" />
+    <Compile Include="API\Enums\Weapon.cs" />
+    <Compile Include="API\Enums\WeaponState.cs" />
     <Compile Include="API\Enums\Keys.cs" />
+    <Compile Include="API\EventData\RconLoginAttemptEventArgs.cs" />
+    <Compile Include="API\EventData\Player\PlayerUpdateEventArgs.cs" />
     <Compile Include="API\EventData\Player\PlayerPickUpPickupEventArgs.cs" />
     <Compile Include="API\EventData\Player\PlayerStateChangeEventArgs.cs" />
     <Compile Include="API\EventData\Player\PlayerExitVehicleEventArgs.cs" />
@@ -54,7 +60,9 @@
     <Compile Include="API\EventData\Player\PlayerClickMapEventArgs.cs" />
     <Compile Include="API\EventData\Player\PlayerSpawnEventArgs.cs" />
     <Compile Include="API\EventData\Player\PlayerRequestClassEventArgs.cs" />
+    <Compile Include="API\EventData\Player\PlayerStreamEventArgs.cs" />
     <Compile Include="API\EventData\RconCommandEventArgs.cs" />
+    <Compile Include="API\EventData\Vehicle\VehicleStreamEventArgs.cs" />
     <Compile Include="API\EventData\Vehicle\VehicleDeathEventArgs.cs" />
     <Compile Include="API\Objects\GameMode.cs" />
     <Compile Include="API\Objects\GangZone.cs" />
@@ -90,7 +98,6 @@
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
