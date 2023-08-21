@@ -1,5 +1,4 @@
-# SAMP.NET
-C# / .NET bindings for SA:MP
+<p align="center"><img src="sampdotnet.png"></p>
 
 ## About
 This is an archive of a project I wrote back in my college days in 2012. It introduced .NET bindings for the SA:MP Pawn API. As such, the code is not up to standards that I feel are "good" these days, and much of this project was a learning experiment.
